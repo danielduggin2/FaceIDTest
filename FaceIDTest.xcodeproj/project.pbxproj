@@ -19,6 +19,7 @@
 		A4C2B15E294659700032006F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A4C2B160294659720032006F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4C2B163294659720032006F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A4C2B16A29465A010032006F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		A4C2B15B294659700032006F /* FaceIDTest */ = {
 			isa = PBXGroup;
 			children = (
+				A4C2B16A29465A010032006F /* Info.plist */,
 				A4C2B15C294659700032006F /* FaceIDTestApp.swift */,
 				A4C2B15E294659700032006F /* ContentView.swift */,
 				A4C2B160294659720032006F /* Assets.xcassets */,
@@ -270,6 +272,8 @@
 				DEVELOPMENT_TEAM = 7Z9GQ4Y72B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceIDTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please let us use your Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +303,8 @@
 				DEVELOPMENT_TEAM = 7Z9GQ4Y72B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FaceIDTest/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Please let us use your Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
